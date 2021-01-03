@@ -2,5 +2,34 @@ body{
     background-color: pink;
 }
 h1{
-color: goldenrod;
+    background-color: salmon;
+    height:45px;
+
+
+
+}
+p{
+    color: rgba(223, 4, 4, 0.842);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+img{
+    width: 80%;
+}
+#murgi{
+    font-size: 30px;
+    font-style: initials;
+}
+.fnd{
+    background-color: lawngreen;
+
+}
+h1.fnd{
+    background-color: maroon;
+}
+.best{
+    width: 200px;
+    background-color: midnightblue;
 }
