@@ -50,3 +50,16 @@ h1.fnd{
     border-radius: 20px;
     margin-bottom: 60px;
 }
+h4{
+    color: indianred;
+}
+h4:hover{
+    color: greenyellow;
+    background-color: goldenrod;
+    font-size: 25px;
+}
+.spcl:hover{
+    color: red;
+    background-color: saddlebrown;
+    font-size: 20px;
+}
