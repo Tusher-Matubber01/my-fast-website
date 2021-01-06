@@ -63,3 +63,18 @@ h4:hover{
     background-color: saddlebrown;
     font-size: 20px;
 }
+input:focus{
+    font-weight: 700;
+    font-size: 20px;
+    color: green;
+}
+li:nth-last-child(3n){
+    background-color: grey;
+}
+a:visited{
+    color: blue;
+}
+h4::after{
+    content: ".";
+    color: burlywood;
+}
