@@ -1,6 +1,10 @@
 body{
     background-color: pink;
     text-align: center;
+    counter-reset: section;                     /* Set for counter*/
+                                                    
+    
+                                                /*(It's call hide commant) */
 }
 h1{
     background-color: salmon;
@@ -74,7 +78,16 @@ li:nth-last-child(3n){
 a:visited{
     color: blue;
 }
-h4::after{
-    content: ".";
-    color: burlywood;
+h4::before{
+    content: "Hello ";
+    color: rgba(223, 4, 4, 0.842);
+}
+.bfc::after{
+    content: "Xaveed";
+    font-size: 15px;
+    color: blueviolet;
+}
+h6::before{
+    counter-increment: section;                     /* set for counter*/ 
+    content: "Fvrt " counter(section)": ";
 }
