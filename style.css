@@ -89,5 +89,5 @@ h4::before{
 }
 h6::before{
     counter-increment: section;                     /* set for counter*/ 
-    content: "Fvrt " counter(section)": ";
+    content: " ❤️ " counter(section)": ";
 }
