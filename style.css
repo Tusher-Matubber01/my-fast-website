@@ -19,3 +19,12 @@ div{
     background-color: hotpink;
 
 }
+.name{
+    color: darkgoldenrod !important;
+}
+h1{
+    color: cyan !important;
+}
+#obama{
+    color: darkgreen;
+}
